@@ -1,3 +1,20 @@
+; Por questão de tempo não conseguir implementar um contador em um display, então estou fazendo um contador, baseado em um programa 
+;que tentamos fazer ontem na lista de exercícios, da seguinte forma:
+
+;Escolhi a PORT B0 como entrada e PORT A0 como saída, dessa forma ao apertar ON o programa irá parar, ao apertar ON de novo o programa irá rodar novamente.
+;As portas C, serão os contadores, em que a cada quase 1 segundo cada LED irá piscar de forma ordernada, logo será primeiro o Port C0,
+;depois o port C1, port C2 até voltar novamente ao C0.
+
+;Para simular isso, usei o keypad matrix e liguei o B0 ao 10 k e o A0 ao 1 K.
+
+;Não consegui zerar o cronômetro
+	
+	
+	
+	
+	
+	
+	
 	ORG 0X00
 	CONT EQU 0x20
 	BUT EQU 0x21
